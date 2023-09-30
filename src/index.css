@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.card-list {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.formEl {
+  background-color: aqua;
+
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: 100%;
+  width: 300px;
+}
+.card-top {
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: beige;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  width: 250px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  /* text-align: left;
+  padding: 0 25px 0 25px; */
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control input {
+  width: 15rem;
+}
